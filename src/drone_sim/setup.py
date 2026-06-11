@@ -23,7 +23,10 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': ['simulator = drone_sim.main:main',
+        'console_scripts': [
+            'simulator = drone_sim.main:main',
+            'physics_node = drone_sim.physics_node:main',
+            'controller_node = drone_sim.controller_node:main'
         ],
     },
 )
