@@ -1,4 +1,4 @@
-from constants import *
+from drone_sim.constants import *
 
 
 class PIDControl:

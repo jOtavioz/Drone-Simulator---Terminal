@@ -1,8 +1,9 @@
-from constants import *
-from drone import Drone
-from env import Mission, waypoints, obs1, obs2, wall
-from controller import WaypointController
-from physics import Physics
+from drone_sim.constants import *
+from drone_sim.drone import Drone
+from drone_sim.env import Mission, waypoints, obs1, obs2, wall
+from drone_sim.controller import WaypointController
+from drone_sim.physics import Physics
+
 
 drone = Drone()
 controller = WaypointController()
@@ -152,3 +153,6 @@ for wp_index, waypoint in enumerate(mission.waypoints, start=1):
 print("\n" + "=" * 70)
 print("  MISSION FINISHED")
 print("=" * 70)
+
+def main():
+	print("Drone Simulator")

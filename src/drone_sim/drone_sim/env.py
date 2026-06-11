@@ -1,6 +1,6 @@
 from enum import Enum
 from dataclasses import dataclass
-from constants import *
+from drone_sim.constants import *
 
 class ObstacleType(Enum):
     PILLAR = 'pillar'   # obstacle that the drone must pass (go around) laterally

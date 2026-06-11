@@ -1,5 +1,5 @@
 
-from components import (GPS, LIDAR, Motor, MotorMixer)
+from drone_sim.components import (GPS, LIDAR, Motor, MotorMixer)
 
 
 class Drone():

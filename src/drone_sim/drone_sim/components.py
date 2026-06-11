@@ -1,5 +1,5 @@
-from constants import *
-from env import ObstacleType
+from drone_sim.constants import *
+from drone_sim.env import ObstacleType
 import random
 
 class GPS():

@@ -1,5 +1,5 @@
 from math import sin, cos, radians
-from constants import *
+from drone_sim.constants import *
 
 '''
     Simplified Rigid Body Model
